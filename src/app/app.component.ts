@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
     <h1>{{title}}</h1>
     <div class="header-bar"></div>
     <nav>
-      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-      <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+      <a routerLink="/dashboard" routerLinkActive="active">Homepage</a>
+      <a routerLink="/heroes" routerLinkActive="active">Prodotti disponibili</a>
     </nav>
     <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'e-Commerce vini Valtenesi';
 }
